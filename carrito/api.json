@@ -1,0 +1,57 @@
+[
+
+   {
+        "id":60488,
+        "foto":"imagenes/camaraDahua.png",
+        "nombre":"CAMARA DAHUA HAC-T2A11P-0280B - 1MPX DOMO 2.8MM METALICA 720HD",
+        "precio":1919
+    },
+    {
+        "id": 16840,
+        "foto": "imagenes/admRyzen5.png",
+        "nombre": "AMD RYZEN 5 4650G (AM4) BULK16865",
+        "precio": 32045
+    },
+    {
+        "id": 4636,
+        "foto": "imagenes/kitMelody.png",
+        "nombre": "KIT ATX MELODY MK-550-2-7-11 GABINETE16865",
+        "precio": 5876
+    },
+    {
+        "id":15065,
+        "foto": "imagenes/monitor19.png",
+        "nombre": "MONITOR 19 PHILIPS 193V5LHSB2/77  HDMI  VGA",
+        "precio": 24601
+    },
+    {
+        "id": 11087,
+        "foto": "imagenes/mother.png",
+        "nombre": "GIGABYTE H510M H (LGA1200) Mother",
+        "precio": 11682
+    },
+    {
+        "id": 31324,
+        "foto": "imagenes/portero.png",
+        "nombre": "KIT PORTERO IP DAHUA DHI-KTW01 | Unidad Exterior | Pantalla 7 Interior | Wifi | P2P | Tarjetas Mifare 13.56Mhz | Apertura Puerta | POE | Incluye Micro SD 8GB",
+        "precio": 45266
+    },
+    {
+        "id":12216,
+        "foto": "imagenes/disco1tb.png",
+        "nombre": "DISCO RIGIDO 1TB SATA WD BLUE (20)",
+        "precio": 6015
+    },
+    {
+        "id":12012,
+        "foto": "imagenes/disco120.png",
+        "nombre": "DISCO RIGIDO SSD 120GB GIGABYTE GP-GSTFS31120GNTD (10)",
+        "precio": 3452
+    },
+    {
+        "id": 13991,
+        "foto": "imagenes/roku.png",
+        "nombre": "SMART TV ROKU LE 3930",
+        "precio": 6191
+    }   
+]

@@ -1,0 +1,37 @@
+{
+    "alquileres":[
+  {
+    "modelo":"RICOH MP301",
+    "caracteristicas":"Imprime,escanea,y hace copias. Impresion doble faz",
+    "tecnologia":"laser Monocromática",
+    "velocidad":"31 PPM",
+    "extras":"tamaño mediano con pantalla led",
+    "image":"/alquiler/imag/eqRicoh301.png"
+  },
+  {
+    "modelo":"RICOH 3710DN",
+    "caracteristicas":"Imprime. Impresion doble faz automática",
+    "tecnologia":"laser Monocromática",
+    "velocidad":"34 PPM",
+    "extras":"tamaño mediano",
+    "image":"/alquiler/imag/ricoh3710SF.jpg"
+  },
+  {
+    "modelo":"HP W135",
+    "caracteristicas":"Imprime,escanea,y hace copias. Impresion doble faz",
+    "tecnologia":"laser Monocromática",
+    "velocidad":"20 PPM. Capacidad máxima de hojas 150.",
+    "extras":"tamaño mediano con Pantalla led y entrada de USB Y MICROSD",
+    "image":"/alquiler/imag/nfp135w_dos.png"
+  },
+  {
+    "modelo":"HP M428",
+    "caracteristicas":"Imprime,escanea,y hace copias. Impresion doble faz",
+    "tecnologia":"laser Monocromática",
+    "velocidad":"34 PPM",
+    "extras":"tamaño mediano.Resolucion 1200x1200 PPP. Con pantalla led a color",
+    "image":"/alquiler/imag/hp428_uno.png"
+  }
+    
+    ]
+}

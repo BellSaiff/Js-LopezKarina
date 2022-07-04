@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+  </head>
+<body>
+     <header>
+      <h1>ON-WI</h1>
+     </header>
+     
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/carrito/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/carrito/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/carrito/1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <a href="/cliente.html">VOLVER</a>
+
+     <h2>Carrito</h2>
+     <hr color="#FF0000" />
+     <div class="resumen">
+      <h4>RESUMEN DE COMPRA</h4>
+      <table class="table">
+       <thead>
+         <tr>
+           <th scope="col">#</th>
+           <th scope="col">Item</th>
+           <th scope="col">Cantidad</th>
+           <th scope="col">Acción</th>
+           <th scope="col">Total</th>
+         </tr>
+       </thead>
+       <tbody id="item">
+     <!--aqui productos comprados-->
+ 
+       </tbody>
+       <tfoot>
+         <tr id="footer">
+           <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+         </tr>
+       </tfoot>
+     </table>
+     <button class="btn btn-secondary" id="finalCompra">FINALIZAR COMPRA</button>
+     </div>
+     </div>
+     <div class="row" id="items">
+     <!--aqui van las card--> 
+     
+     </div>
+     
+     <a href="/cliente.html">VOLVER</a>
+     
+
+    <template id="template-footer">
+      <th scope="row" colspan="2">Total productos</th>
+      <td>10</td>
+      <td>
+          <button class="btn btn-warning btn-sm" id="vaciar-carrito">
+              vaciar todo
+          </button>
+      </td>
+      <td class="font-weight-bold">$ <span>5000</span></td>
+  </template>
+  
+  <template id="template-carrito">
+    <tr>
+      <th scope="row">id</th>
+      <td>Café</td>
+      <td>1</td>
+      <td>
+          <button class="btn btn-light btn-sm">
+              +
+          </button>
+          <button class="btn btn-warning btn-sm">
+              -
+          </button>
+      </td>
+      <td id="span">$<span>500</span></td>
+    </tr>
+  </template>
+
+    <template id="template-card">
+        <div class="col-4 mb-2">
+          <div class="card">
+            <img src="" alt="" class="card-img-top" width="300px" height="300px">
+            <div class="card-body">
+              <h6>ID:</h6>
+              <h5>Titulo</h5>
+              <p>precio</p>
+              <button class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+    <script src="/carrito/carrito.js"></script>
+</body>
+<footer>
+  <h6>Seguinos en nuestras redes</h6>
+  <p>Encontra lo último en tecnologia en nuestra sucursal en 9 de Julio 1021-Esquel</p>
+ </footer>
+</html>
